@@ -1,0 +1,46 @@
+.search-results {
+  padding: 0.2rem 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.results {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: auto;
+  margin-bottom: 2rem;
+}
+
+.pagination__btn--prev {
+  grid-column: 1 / 2;
+  justify-self: center;
+  align-self: center;
+}
+.pagination__btn--next {
+  grid-column: 3 / 4;
+  justify-self: center;
+  align-self: center;
+}
+.pagination__num-pages {
+  grid-column: 2/ 3;
+  justify-self: center;
+  align-self: center;
+}
+.copyright {
+  color: $color-grey-dark-2;
+  font-size: 1.2rem;
+  padding: 0 3.5rem;
+  // margin-top: auto;
+  // margin-bottom: 10px;
+  .twitter-link:link,
+  .twitter-link:visited {
+    color: $color-grey-dark-2;
+  }
+}
